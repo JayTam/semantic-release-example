@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Check tokens
-        run: echo "{{ secrets.GH_TOKEN }}"
+        run: echo "${{ secrets.GH_TOKEN }}"
 
       - name: Run semantic-release
         env:
