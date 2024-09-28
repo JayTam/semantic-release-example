@@ -25,4 +25,4 @@ jobs:
         run: npx semantic-release@21.0.2
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }} # GitHub 的 token
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # 在 GitHub Secrets 中设置你的 NPM token
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }} # 在 GitHub Secrets 中设置你的 NPM token
