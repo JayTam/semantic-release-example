@@ -1,5 +1,5 @@
 {
-  "name": "@jaytam/semantic-release-example",
+  "name": "semantic-release-example--test-2024-9-29",
   "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
@@ -22,6 +22,6 @@
     "url": "https://github.com/JayTam/semantic-release-example.git"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   }
 }
